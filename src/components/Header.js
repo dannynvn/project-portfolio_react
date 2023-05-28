@@ -32,7 +32,7 @@ function Header() {
                 <a href="https://github.com/dannynvn">Danny Nguyen</a>
             </h1>
 
-            {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
 
             <main>
                 <div>
