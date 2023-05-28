@@ -3,11 +3,48 @@ import { validateEmail } from "../utils/helpers";
 import 'bootstrap/dist/css/bootstrap.css';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import { validate } from "json-schema";
 
 
 // contact me page with form
 
 function Contact() {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
+
+    // handles the form submission
+    function handleSubmit(e) {
+        e.preventDefault();
+        
+        // checks if the name is empty
+        if (!name) {
+            setErrorMessage("Please enter your name.");
+            return;
+        }
+
+        // checks if the email is valid
+        if (!validateEmail(email)) {
+            setErrorMessage("Please enter a valid email.");
+            return;
+        }
+
+        // checks if the message is empty
+        if (!message) {
+            setErrorMessage("Please enter a message.");
+            return;
+        }
+
+        // clears the form if all fields are valid
+        setName("");
+        setEmail("");
+        setMessage("");
+        
+    }
+
+
+    // renders the contact me form
     return (
         <div className="form-card">
             <Modal.Dialog>
