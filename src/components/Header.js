@@ -27,13 +27,17 @@ function Header() {
     };
 
     return (
-        <div>
-            <a href="https://github.com/dannynvn" className="logo">Danny Nguyen</a>
+        <div className="header">
+            <h1>
+                <a href="https://github.com/dannynvn">Danny Nguyen</a>
+            </h1>
 
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange} /> */}
 
             <main>
-                {renderPage(currentPage)}
+                <div>
+                    {renderPage(currentPage)}
+                </div>
             </main>
         </div>
     );
