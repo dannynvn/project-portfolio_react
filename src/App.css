@@ -1,0 +1,11 @@
+* {
+    margin: 5;
+    padding: 3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.portfolio-app {
+    text-align: center;
+    background: black;
+}
