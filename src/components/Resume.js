@@ -6,7 +6,7 @@ import { BsCloudDownload } from "react-icons/bs";
 
 function Resume() {
     return (
-        <div>
+        <div className="content-container">
             <h1>Resume</h1>
 
             <a href={myResume} className="download-logo" download>
