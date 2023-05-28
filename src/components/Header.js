@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home from "./Home";
+import About from "./About";
 import Contact from "./Contact";
 import Navigation from "./Navigation";
 import Portfolio from "./Portfolio";
@@ -8,12 +8,12 @@ import Resume from "./Resume";
 // the header component includes the navigation bar
 
 function Header() {
-    const [currentPage, handlePageChange] = useState("Home");
+    const [currentPage, handlePageChange] = useState("About");
 
     const renderPage = () => {
         switch (currentPage) {
-            case "Home":
-                return <Home />;
+            case "About":
+                return <About />;
             case "Contact":
                 return <Contact />;
             case "Portfolio":
@@ -22,7 +22,7 @@ function Header() {
                 return <Resume />;
             
             default:
-                return <Home />;
+                return <About />;
         }
     };
 

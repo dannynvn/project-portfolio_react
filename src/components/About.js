@@ -1,10 +1,10 @@
 import React from "react";
 
-// The Home component is the entry point for the Home page / about me section
-function Home() {
+// The About component is the entry point for the About page / about me section
+function About() {
     return (
         <div>
-            <h1>Home</h1>
+            <h1>About</h1>
             <p>
                 This is the home page.
             </p>
@@ -12,4 +12,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default About;
