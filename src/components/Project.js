@@ -10,9 +10,9 @@ function Project(props) {
                     <div>
                         <div className="project-card">
                             <div className="card-image" target="_blank" rel="noreferrer">
-                                <figure className="">
-                                    <a href={project.live}>
-                                        <img src={process.env.PUBLIC_URL + project.image} alt="placeholder" />
+                                <figure>
+                                    <a href={project.github}>
+                                        <img src={process.env.PUBLIC_URL + project.image} className="img-fluid img-thumbnail" alt="placeholder" />
                                     </a>
                                 </figure>
                                 <p key={project.id}>

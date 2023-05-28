@@ -1,8 +1,11 @@
 * {
     margin: 1px;
     padding: 1px;
+    justify-content: center;
     list-style-type: none;
     font-family: 'SF Pro','Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, sans-serif;
+    font-weight: 225;
+    text-decoration: none;
 }
 
 .portfolio-app {
@@ -45,8 +48,13 @@
 .footer {
     background: black;
     color: white;
+    font-size: 25px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
+}
+
+.footer-name {
+    display: inline-flex;
 }
 
 .project-container {
@@ -63,4 +71,26 @@
     padding: 20px;
     margin: 20px;
     border: 1px solid grey;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-card {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid grey;
+}
+
+.form-input {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
 }
