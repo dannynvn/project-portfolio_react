@@ -1,5 +1,6 @@
 import React from "react";
 
+// The Home component is the entry point for the Home page / about me section
 function Home() {
     return (
         <div>
