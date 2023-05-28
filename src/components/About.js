@@ -5,8 +5,8 @@ function About() {
     return (
         <div>
             <h1>About</h1>
-            <p>
-                This is the home page.
+            <p className="content-container">
+                This is the home page. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             </p>
         </div>
     );

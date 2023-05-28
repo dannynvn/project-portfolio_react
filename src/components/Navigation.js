@@ -9,7 +9,7 @@ function Navigation(props) {
         <div>
             <ul className="nav nav-tabs">
                 {tabs.map(tab => (
-                    
+
                     // creates list items for each tab
                     <li 
                         className={ props.currentPage === tab ? "nav-item active" : "nav-item" } 
