@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/project-portfolio_react/static/css/main.5c32d87f.css",
-    "main.js": "/project-portfolio_react/static/js/main.cdaaeb7b.js",
+    "main.js": "/project-portfolio_react/static/js/main.9f4ce7a7.js",
+    "static/media/proj4.jpg": "/project-portfolio_react/static/media/proj4.5a811e6302c709a1df8f.jpg",
+    "static/media/proj2.jpg": "/project-portfolio_react/static/media/proj2.e87d938c88636bff4def.jpg",
+    "static/media/proj6.jpg": "/project-portfolio_react/static/media/proj6.57145f6300614ff77426.jpg",
     "static/media/profilepic.jpg": "/project-portfolio_react/static/media/profilepic.11b7fa86274ddb2ad690.jpg",
+    "static/media/proj3.jpg": "/project-portfolio_react/static/media/proj3.0c8a79ba986e91985fd3.jpg",
+    "static/media/proj1.jpg": "/project-portfolio_react/static/media/proj1.fcf01ccf4581d2370dce.jpg",
+    "static/media/proj5.jpg": "/project-portfolio_react/static/media/proj5.411fbc61fcae0aedc2ee.jpg",
     "static/media/Danny_Nguyen-Resume.pdf": "/project-portfolio_react/static/media/Danny_Nguyen-Resume.8967a1929985b4ecc9bd.pdf",
     "index.html": "/project-portfolio_react/index.html",
     "main.5c32d87f.css.map": "/project-portfolio_react/static/css/main.5c32d87f.css.map",
-    "main.cdaaeb7b.js.map": "/project-portfolio_react/static/js/main.cdaaeb7b.js.map"
+    "main.9f4ce7a7.js.map": "/project-portfolio_react/static/js/main.9f4ce7a7.js.map"
   },
   "entrypoints": [
     "static/css/main.5c32d87f.css",
-    "static/js/main.cdaaeb7b.js"
+    "static/js/main.9f4ce7a7.js"
   ]
 }
