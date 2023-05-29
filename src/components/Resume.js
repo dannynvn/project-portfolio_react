@@ -17,22 +17,22 @@ function Resume() {
                 Proficiencies
             </h3>
 
-            <div>
-                <ul>
-                    <li>HTML / CSS</li>
-                    <li>JavaScript</li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>React.js</li>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>GraphQL</li>
-                    <li>Git</li>
-                    <li>Heroku</li>
-                    <li>Bootstrap</li>
-                    <li>jQuery</li>
-                    <li>RESTful APIs</li>
-                </ul>
+            <div>    
+                <div>
+                    <p>HTML / CSS</p>
+                    <p>JavaScript</p>
+                    <p>Node.js</p>
+                    <p>Express.js</p>
+                    <p>React.js</p>
+                    <p>MySQL</p>
+                    <p>MongoDB</p>
+                    <p>GraphQL</p>
+                    <p>Git</p>
+                    <p>Heroku</p>
+                    <p>Bootstrap</p>
+                    <p>jQuery</p>
+                    <p>RESTful APIs</p>
+                </div>
             </div>
         </div>
     );

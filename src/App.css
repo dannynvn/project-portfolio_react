@@ -96,3 +96,9 @@
     padding: 10px;
     margin: 10px;
 }
+
+.contactError {
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+}

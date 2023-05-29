@@ -5,7 +5,7 @@ import profilePic from "../assets/images/profilepic.jpg";
 function About() {
     return (
         <div className="content-container" style={{ marginTop: 20 }}>
-            <p style={{ marginBottom: 50 }}>
+            <p style={{ marginBottom: 50, fontSize: 20 }}>
                 Hello! I'm a software developer based in the San Francisco Bay Area, CA. 
                 <br/> 
                 <br/>

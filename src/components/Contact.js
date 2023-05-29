@@ -59,6 +59,8 @@ function Contact() {
 
         // clears the form if all fields are valid
         else {
+            alert(`Thank you for your message, ${name}!`);
+            window.location.reload();
             setName("");
             setEmail("");
             setMessage("");
@@ -120,7 +122,14 @@ function Contact() {
                     </Button>
                 </Modal.Footer>
             </Modal.Dialog>
+
+        {errorMessage && (
+          <div>
+            <p className="contactError">{errorMessage}</p>
+          </div>
+        )}
         </div>
+        
     );
 }
 
