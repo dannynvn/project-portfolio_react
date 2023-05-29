@@ -3,7 +3,7 @@
 ## Description
 This is a portfolio built using React.js
 
-Deployed Link: 
+Deployed Link: https://dannynvn.github.io/project-portfolio_react/
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
@@ -26,4 +26,4 @@ Users can install this application for development purposes by:
 
 
 ## Screenshots
-![Preview of application]()
+![Preview of application](/public/portfolio-screenshot.jpg)
