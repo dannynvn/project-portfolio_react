@@ -15,11 +15,17 @@ function Project(props) {
                                         <img src={process.env.PUBLIC_URL + project.image} className="img-fluid img-thumbnail" alt="placeholder" />
                                     </a>
                                 </figure>
-                                <p key={project.id}>
+                                <a href={project.github} key={project.id}>
                                     {project.title}
-                                </p>
+                                    <br/>
+                                    <br/>
+                                </a>
                                 <p key={project.id}>
                                     {project.description}
+                                </p>
+                                {/* placeholder github link for deployed site */}
+                                <p key={project.id}>
+                                    <a href={project.github}>Live site</a>
                                 </p>
                             </div>
                         </div>

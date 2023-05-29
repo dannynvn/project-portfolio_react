@@ -9,7 +9,8 @@ const projects = [
         image: "https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg",
         title: "Social Network API",
         description: "Back end for a social network web application.",
-        github:"https://github.com/dannynvn/project-social_network_api"
+        github:"https://github.com/dannynvn/project-social_network_api",
+        deployed:"#"
     },
     {
         id: 1,
