@@ -1,12 +1,18 @@
 import React from "react";
 import Project from "./Project";
+import proj1 from "../assets/images/proj1.jpg";
+import proj2 from "../assets/images/proj2.jpg";
+import proj3 from "../assets/images/proj3.jpg";
+import proj4 from "../assets/images/proj4.jpg";
+import proj5 from "../assets/images/proj5.jpg";
+import proj6 from "../assets/images/proj6.jpg";
 
 
 // projects array
 const projects = [
     {
         id: 0,
-        image: "https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg",
+        image: proj1,
         title: "Social Network API",
         description: "Back end for a social network web application.",
         github:"https://github.com/dannynvn/project-social_network_api",
@@ -14,35 +20,35 @@ const projects = [
     },
     {
         id: 1,
-        image: "https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg",
+        image: proj2,
         title: "Text Editor",
         description: "Text editor application.",
         github:"https://github.com/dannynvn/project-text_editor"
     },
     {
         id: 2,
-        image: "https://images.pexels.com/photos/270549/pexels-photo-270549.jpeg",
+        image: proj3,
         title: "E-Commerce Back End",
         description: "Back end for an e-commerce site.",
         github:"https://github.com/dannynvn/project-E_Commerce_Back_End"
     },
     {
         id: 3,
-        image: "https://images.pexels.com/photos/1191244/pexels-photo-1191244.jpeg",
+        image: proj4,
         title: "CLI Employee Tracker",
         description: "Command line application that manages a company's employees.",
         github:"https://github.com/dannynvn/project-CLI_Employee_Tracker"
     },
     {
         id: 4,
-        image: "https://images.pexels.com/photos/1060901/pexels-photo-1060901.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        image: proj5,
         title: "Express Note Taker",
         description: "Note taker built with Express.js.",
         github:"https://github.com/dannynvn/project-Express_Note_Taker"
     },
     {
         id: 5,
-        image: "https://images.pexels.com/photos/544947/pexels-photo-544947.jpeg",
+        image: proj6,
         title: "Weather Dashboard",
         description: "Weather dashboard that runs in the browser and features dynamically updated HTML and CSS.",
         github:"https://github.com/dannynvn/project-weather_dashboard"
