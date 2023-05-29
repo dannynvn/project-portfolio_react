@@ -5,8 +5,7 @@ import profilePic from "../assets/images/profilepic.jpg";
 function About() {
     return (
         <div className="content-container" style={{ marginTop: 20 }}>
-            <img src={profilePic} className="img-fluid" alt="danny nguyen" style={{ paddingLeft: 400, paddingRight: 400 }}/>
-            <p style={{ marginTop: 50 }}>
+            <p style={{ marginBottom: 50 }}>
                 Hello! I'm a software developer based in the San Francisco Bay Area, CA. 
                 <br/> 
                 <br/>
@@ -15,6 +14,7 @@ function About() {
                 <br/>
                 When I'm not building, you can find me on exploring trails around the Bay Area, or traveling for new experiences. I have two feline furbabies named Meeko and Whiskey. Meeko's the rule follower and Whiskey is the troublemaker. 
             </p>
+            <img src={profilePic} className="img-fluid" alt="danny nguyen" style={{ paddingLeft: 50, paddingRight: 50 }}/>
         </div>
     );
 }
