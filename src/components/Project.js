@@ -12,7 +12,7 @@ function Project(props) {
                             <div className="card-image" target="_blank" rel="noreferrer">
                                 <figure>
                                     <a href={project.github}>
-                                        <img src={process.env.PUBLIC_URL + project.image} className="img-fluid img-thumbnail" alt="placeholder" />
+                                        <img src={project.image} className="img-fluid img-thumbnail" alt="placeholder" />
                                     </a>
                                 </figure>
                                 <a href={project.github} key={project.id}>
