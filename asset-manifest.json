@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.5c32d87f.css",
+    "main.js": "/my-app/static/js/main.86211ecc.js",
+    "static/media/profilepic.jpg": "/my-app/static/media/profilepic.11b7fa86274ddb2ad690.jpg",
+    "static/media/Danny_Nguyen-Resume.pdf": "/my-app/static/media/Danny_Nguyen-Resume.8967a1929985b4ecc9bd.pdf",
+    "index.html": "/my-app/index.html",
+    "main.5c32d87f.css.map": "/my-app/static/css/main.5c32d87f.css.map",
+    "main.86211ecc.js.map": "/my-app/static/js/main.86211ecc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c32d87f.css",
+    "static/js/main.86211ecc.js"
+  ]
+}
